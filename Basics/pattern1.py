@@ -2,7 +2,7 @@ from turtle import *
 
 pencolor('blue')
 pensize(1)
-speed('slowest')
+speed('fastest')
 
 for i in range(6):
     fd(100) # forward distance
