@@ -21,3 +21,11 @@ for i in range(11, 2, -1):
 
 hideturtle()
 mainloop()
+
+# function types :
+
+# - Function with return value
+# - Function with return value but no arguement
+# - Function with argurments
+# - Function with return value and arguements
+    
