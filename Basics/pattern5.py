@@ -1,21 +1,16 @@
 from turtle import *
 
-title('Meer Magic')
+s = Screen()
+s.setup(1000,1000)
+
 bgcolor('black')
-pencolor('white')
-pensize(4)
-
-fillcolor('dark blue')
-begin_fill()
-for i in range(5):
-    fd(100)
-    lt(72)
-end_fill()
-
-fillcolor('sky blue')
-begin_fill()
-circle(50)
-end_fill()
+speed('fastest')
+colors = ['red', 'purple', 'yellow', 'blue', 'green', 'orange']
+for x in range(360):
+    pencolor(colors[x % 6])
+    width(x / 100 + 1)
+    forward(x)
+    left(59)
 
 hideturtle()
 mainloop()
